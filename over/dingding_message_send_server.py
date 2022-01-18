@@ -22,7 +22,7 @@ def check():
     msg_body = get_data.get('msg_body')
 
     return_dict['result'] = tt(business, msg_body)  # 对参数进行操作
-    #webhook = 'https://oapi.dingtalk.com/robot/send?access_token=efa2ec3346c28cce4559cba2dee2099effd04ac63d811f33578c614a52958a2b'
+    #webhook = 'https://oapi.dingtalk.com/robot/send?access_token='
     dis = ""
     erp = ""
     bigdata = ""
